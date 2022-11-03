@@ -1,0 +1,16 @@
+body{ display: flex; flex-direction: column; align-items: center; padding: 0.1em }
+.box { flex: 1 1 auto; display: flex; align-items: baseline;}
+.box .label {flex: 0 0 3em; margin-left: 1em;}
+.box .field {flex: 1 1 auto; margin-right: 1em; margin-bottom: .5em;}
+.buttons { flex: 1 1 auto; margin: 1em auto;}
+.btn {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    display: inline-block;
+    text-align: center;
+    margin: 0 .2em 0 0;
+}
+.btn:hover {
+    color: lightgray; border-bottom: 1px solid lightgray;
+}

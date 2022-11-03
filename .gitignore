@@ -1,0 +1,5 @@
+mix.lock
+deps/
+_build/
+*Mnesia.*@*
+rocksdb/
